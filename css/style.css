@@ -1,0 +1,796 @@
+/********************
+	Global CSS
+*********************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a; a:hover{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+/*********************************
+  Header Section CSS code start
+**********************************/
+.header-section{
+	padding: 15px 0 0 0 ;
+	background: url(../img/banner.png) center center no-repeat;
+	background-size: cover;
+}
+
+.header-section .logo2{
+	margin-left: 5px;
+}
+
+.header-section .nav-link{
+	color: white !important;
+	margin-left: 8px;
+}
+
+.header-section .nav-link:hover{
+	background: url(../img/line.png) center bottom no-repeat;
+}
+
+.header-section .content{
+	padding: 80px 0px;
+}
+
+.header-section .content span{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	color: #008ed6;
+	letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.header-section .content h1{
+	font-size: 48px;
+	font-weight: 600;
+	color: white;
+	padding-right: 32px;
+}
+
+.header-section .content p{
+	font-size: 18px;
+	color: #999999;
+	padding-right: 125px;
+	line-height: 28px;
+}
+
+.header-section .buttons{
+	padding-top: 50px;
+}
+
+.header-section .buttons .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 16px;
+	transition: .5s;
+}
+
+.header-section .buttons .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .buttons .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .buttons .btn-info:hover{
+	background: #008ed6 !important;
+	border: 1px solid  #008ed6 !important;
+	transition: .5s;
+}
+
+.header-section .img{
+	    margin: 60px 0px 0px 120px;
+}
+/*********************************
+  Header Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+/*********************************
+  Feature Section CSS code start
+**********************************/
+.feature-section{
+	padding: 60px 0;
+	border-bottom: 1px solid #ededed;
+}
+
+.feature-section .title{
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.feature-section .title p{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.feature-section .title h2{
+	font-weight: 600;
+    font-size: 42px;
+    color: #1a1a1a;
+}
+
+.feature-section .title img{
+	padding-top: 25px;
+}
+
+.feature-section .feature{
+	text-align: center;
+}
+
+.feature-section .feature img{
+	padding-bottom: 25px;
+}
+
+.feature-section .feature h4{
+	font-weight: 400;
+}
+
+.feature-section .feature p{
+	color: #999999;
+    padding: 0px 45px;
+    font-weight: 400;
+    line-height: 25px;
+}
+/*********************************
+  Feature Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+
+/*********************************
+  Beautiful Section CSS code start
+**********************************/
+.beautiful-section{
+	padding: 50px 0;
+}
+
+.beautiful-section .phone{
+	margin-left: 62px;
+}
+
+.beautiful-section .details{
+	padding-top: 46px;
+}
+
+.beautiful-section .details span{
+	text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.beautiful-section .details h2{
+	font-weight: 600;
+    font-size: 42px;
+    color: #1a1a1a;
+    margin-top: 8px;
+}
+
+.beautiful-section .details .line{
+	padding: 15px 0 30px 0;
+}
+
+.beautiful-section .details p{
+    color: #999999;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 76px;
+    padding-bottom: 10px;
+}
+
+.beautiful-section .details ul{
+	padding: 0;
+
+}
+
+.beautiful-section .details ul li{
+    padding: 6px 0px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.beautiful-section .details ul li img{
+	width: 16px;
+	margin-right: 10px;
+}
+/*********************************
+  Beautiful Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+/*********************************
+  Super Section CSS code start
+**********************************/
+.super-section{
+	background: #f2f2f2;
+	padding: 50px 0;
+}
+
+.super-section .details{
+	padding-top: 50px;
+}
+
+.super-section .details span{
+	text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.super-section .details h2{
+	font-weight: 600;
+    font-size: 42px;
+    color: #1a1a1a;
+    margin-top: 8px;
+}
+
+.super-section .details .line{
+	padding: 15px 0 30px 0;
+}
+
+.super-section .details p{
+    color: #999999;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 76px;
+    padding-bottom: 10px;
+}
+
+.super-section .phone{
+
+}
+
+.super-section .phone img{
+	width: 100%;
+	margin-left: -70px;
+}
+/*********************************
+  Super Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+
+
+
+/*********************************
+  Review Section CSS code start
+**********************************/
+.review-section{
+	background: url(../img/banner2.png) center center no-repeat;
+	background-size: cover;
+	padding: 60px 0;
+}
+
+.review-section .title{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.review-section .title p{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.review-section .title h2{
+	font-weight: 600;
+    font-size: 42px;
+    color: #fff;
+}
+
+.review-section .title img{
+	padding-top: 25px;
+}
+
+.review-section .inner-part{
+
+}
+
+.review-section .inner-part p{
+	color: white;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  padding-right: 35px;
+}
+
+.review-section .name-part{
+	display: flex;
+	align-items: center;
+}
+
+.review-section .name-part .img{
+	margin-right: 20px;
+}
+
+.review-section .name-part .img img{
+	width: 100%;
+  height: auto;
+}
+
+.review-section .name-part .name{
+	padding-top: 4px;
+}
+
+.review-section .name-part .name p{
+	color: white;
+  font-size: 15px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.review-section .name-part .name h6{
+	font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+}
+
+.review-section .dot{
+	padding-top: 100px;
+}
+
+.review-section .dot ul{
+	text-align: center;
+}
+
+.review-section .dot ul li{
+	display: inline-block;
+	background: transparent;
+	border: 1px solid #999999;
+	border-radius: 50px;
+	width: 8px;
+	height: 8px;
+	margin-left: 6px;
+	margin-right: 6px;
+	transition: .5s;
+}
+
+.review-section .dot ul li:hover{
+	background: white;
+	border: none;
+	transform: scale(1.5);
+	transition: .5s;
+}
+/*********************************
+  Review Section CSS code end
+**********************************/
+
+
+
+
+/*************************************
+  Double Button Section CSS code start
+**************************************/
+.button-section{
+	background: #15141a;
+	padding: 50px 0;
+}
+
+.button-section .title{
+
+}
+
+.button-section .title h2{
+	color: white;
+	font-size: 38px;
+}
+
+.button-section .title h2 span{
+	font-weight: 300;
+  padding-left: 10px;
+}
+
+.button-section .buttons .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-left: 16px;
+	transition: .5s;
+}
+
+.button-section .buttons .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.button-section .buttons .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	transition: .5s;
+}
+
+.button-section .buttons .btn-info:hover{
+	background: #008ed6 !important;
+	border: 1px solid  #008ed6 !important;
+	transition: .5s;
+}
+/*************************************
+  Double Button Section CSS code end
+**************************************/
+
+
+
+
+
+
+/*************************************
+  Pricing Section CSS code start
+**************************************/
+.pricing-section{
+	padding: 60px 0;
+}
+
+.pricing-section .title{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.pricing-section .title p{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-section .title h2{
+	font-weight: 600;
+  font-size: 42px;
+  color: #1a1a1a;
+}
+
+.pricing-section .title img{
+	padding-top: 25px;
+}
+
+.pricing-section .price-card{
+	text-align: center;
+	border: 1px solid #e0e0e0;
+}
+
+.pricing-section .price-header{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.pricing-section .price-header h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 15px 0 15px 0px;
+	transition: .5s;
+}
+
+.pricing-section .price-body{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 30px 0px 30px 0px;
+	transition: .5s;
+}
+
+.pricing-section .price-body h1{
+	font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pricing-section .price-body h1 sup{
+	font-size: 22px;
+  font-weight: 600;
+  top: -15px;
+}
+
+.pricing-section .price-body p{
+	color: #a1a1a1;
+	margin: 0;
+}
+
+.pricing-section .price-footer{
+
+}
+
+.pricing-section .price-footer p{
+	color: #a1a1a1;
+	font-size: 18px;
+	padding: 46px 47px 20px;
+	text-decoration: none;
+}
+
+.pricing-section .price-footer p a{
+	text-decoration: none;
+	color: #008ed6;
+}
+
+.pricing-section .price-footer .btn{
+	background: transparent;
+	border-color: #e0e0e0;
+	border-radius: 4px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 600;
+	margin-bottom: 25px;
+	transition: .5s;
+}
+
+.price-card:hover .price-header h2{
+	color: #008ed6;
+	transition: .5s;
+}
+
+.price-card:hover .price-body{
+	background: #008ed6;
+	color: white;
+	transition: .5s;
+}
+
+.price-card:hover .price-body p{
+	color: white;
+	transition: .5s;
+}
+
+.price-card:hover .price-footer .btn{
+	background: #008ed6;
+	color: white;
+	transition: .5s;
+}
+/*************************************
+  Pricing Section CSS code end
+**************************************/
+
+
+
+
+
+
+
+
+
+/*************************************
+  Contact Section CSS code start
+**************************************/
+.contact-section{
+	background: #ededed;
+	padding: 60px 0;
+}
+
+.contact-section .title{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.contact-section .title p{
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-section .title h2{
+	font-weight: 600;
+  font-size: 42px;
+  color: #1a1a1a;
+}
+
+.contact-section .title img{
+	padding-top: 20px;
+}
+
+.contact-section .contact{
+	text-align: center;
+}
+
+.contact-section .contact img{
+	
+}
+
+.contact-section .contact p{
+	padding-top: 20px;
+  color: #999999;
+  font-size: 18px;
+}
+
+/*************************************
+  Contact Section CSS code end
+**************************************/
+
+
+
+
+
+
+
+
+/*************************************
+  Form Section CSS code start
+**************************************/
+.form-section{
+	background: #ededed;
+
+}
+
+.form-section .form-inner{
+	display: flex;
+  background: black;
+  margin: -1px 234px;
+  padding: 33px 0 79px 0;
+  
+}
+
+.form-section .form-inner .right{
+	
+}
+
+.form-section .form-inner .right input{
+  display: block;
+  margin: 20px 0 20px 0px;
+  padding: 10px 65px 10px 10px;
+  border: 1px solid #444348;
+  color: #606062;
+  text-transform: uppercase;
+  background: #15141a;
+}
+
+.form-section .form-inner .left{
+	margin-left: 20px;
+}
+
+.form-section .form-inner .left input{
+	margin: 20px 0 20px 0px;
+  padding: 10px 65px 142px 10px;
+  border: 1px solid #444348;
+  color: #606062;
+  text-transform: uppercase;
+  background: #15141a;
+}
+
+.form-section .btn-primary {
+  background: #008ed6 !important;
+  border-radius: 3px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 664px;
+  transition: .5s;
+  margin-top: -150px;
+}
+
+.form-section .map{
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+/*************************************
+  Form Section CSS code end
+**************************************/
+
+
+
+
+
+/*************************************
+  Footer Section CSS code end
+**************************************/
+.footer-section{
+	width: 100%;
+	padding: 50px 0 30px 0;
+	background: #15141a;
+}
+
+.footer-section .social-icon{
+	text-align: center;
+}
+
+.footer-section .social-icon ul{
+	margin-bottom: 25px;
+  padding: 0;
+}
+
+.footer-section .social-icon ul li{
+	display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.footer-section .social-icon ul li a{
+	color: #444348;
+	transition: .5s;
+}
+
+.footer-section .social-icon ul li a:hover{
+	color: #008ed6;
+	transition: .5s;
+}
+
+.footer-section .copyrigh{
+	text-align: center;
+	text-transform: uppercase;
+	color: #444348;
+	font-size: 16px;
+}
+
+/*************************************
+  Footer Section CSS code end
+**************************************/
